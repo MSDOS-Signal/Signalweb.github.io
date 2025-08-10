@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signal_Xinhao - 个人主页</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="images/github-fill.png">
+</head>
+<body>
+    <canvas id="particles-bg"></canvas>
+    <nav>
+        <ul>
+            <li><a href="index.html">主页</a></li>
+            <li><a href="projects.html">我的项目</a></li>
+            <li><a href="minecraft.html">Minecraft</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <header>
+                <div class="intro">
+                    <img src="images/avatar.jpg" alt="头像" class="avatar">
+                    <h1>Signal_Xinhao</h1>
+                    <p class="subtitle" id="subtitle"></p>
+                    <div class="social-links">
+                        <a href="https://github.com/MSDOS-Signal" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a onclick="alert('我的qq号3878919117')" class="social-link">
+                            <i class="fab fa-qq"></i>
+                        </a>
+                        <a onclick="alert('我的微信号DXH08060927')" class="social-link">
+                            <i class="fab fa-weixin"></i>
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <section class="about">
+                <h2><i class="fas fa-user"></i> 关于我</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>来自河北的<span class="highlight">运维转开发工程师</span>，专注于DevOps和云原生技术。</p>
+                        <p>高中时期获得<span class="highlight">河北省计算机网络搭建与运维省一等奖</span>，曾上过<span class="highlight">河北卫视</span>。</p>
+                        <p>目前仍在<span class="highlight">开发运维一体化</span>工作，致力于自动化、容器化和云原生领域的探索与实践。</p>
+                        <p>同时也是一名<span class="highlight">共青团员</span>，热爱开源技术，相信开源就是信息化的共产主义！</p>
+                        <p>从幼儿园(迫真win98)开始接触计算机，已有<span class="highlight">十余年计算机学习经验</span>，目前现在大二学生，但不想颓废，积极开发项目。</p>
+                    </div>
+                    <div class="achievements">
+                        <div class="achievement-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>省一等奖</span>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-tv"></i>
+                            <span>河北卫视</span>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>DevOps</span>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-heart"></i>
+                            <span>共青团员</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills">
+                <h2><i class="fas fa-code"></i> 技能栈</h2>
+                <div class="skills-categories">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-server"></i> 运维技术</h3>
+                        <div class="skill-icons">
+                            <div class="skill-item">
+                                <i class="devicon-linux-plain"></i>
+                                <span>Linux</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-kubernetes-plain-wordmark"></i>
+                                <span>Kubernetes</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-docker-plain-wordmark"></i>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3><i class="fas fa-laptop-code"></i> 后端开发</h3>
+                        <div class="skill-icons">
+                            <div class="skill-item">
+                                <i class="devicon-java-plain-wordmark"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-spring-plain-wordmark"></i>
+                                <span>Spring Boot</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-mysql-plain-wordmark"></i>
+                                <span>MySQL</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3><i class="fas fa-palette"></i> 前端技术</h3>
+                        <div class="skill-icons">
+                            <div class="skill-item">
+                                <i class="devicon-vuejs-plain-wordmark"></i>
+                                <span>Vue.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-react-original-wordmark"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="minecraft-preview">
+                <h2><i class="fas fa-gamepad"></i> Minecraft 服务器</h2>
+                <div class="minecraft-card">
+                    <div class="minecraft-info">
+                        <div class="server-logo">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="server-details">
+                            <h3>星火春风</h3>
+                            <p><i class="fas fa-globe"></i> <strong>服务器地址:</strong> play.simpfun.cn:12785</p>
+                            <p><i class="fab fa-qq"></i> <strong>QQ 群:</strong> 390258270</p>
+                            <p><i class="fas fa-plug"></i> <strong>类型:</strong> 插件服</p>
+                        </div>
+                    </div>
+                    <div class="minecraft-actions">
+                        <a href="minecraft.html" class="btn-primary">了解更多</a>
+                        <a onclick="alert('服务器qq群号390258270')" class="btn-secondary">加入QQ群</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stats">
+                <h2><i class="fas fa-chart-line"></i> 数据统计</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">年技术经验</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-label">完成项目</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10K+">0</div>
+                        <div class="stat-label">代码提交</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-label">开源项目</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>联系方式</h4>
+                <p><i class="fas fa-envelope"></i> Email: oadxh0806@126.com</p>
+                <p><i class="fab fa-qq"></i> QQ: 390258270</p>
+            </div>
+            <div class="footer-section">
+                <h4>技术栈</h4>
+                <p>DevOps | 云原生 | 全栈开发</p>
+                <p>Java | Vue.js | React | Docker</p>
+            </div>
+            <div class="footer-section">
+                <h4>开源精神</h4>
+                <p><i class="fas fa-heart"></i> 开源就是信息化的共产主义</p>
+                <p><i class="fas fa-star"></i> 热爱技术，追求卓越</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Signal_Xinhao. All Rights Reserved. | Made with <i class="fas fa-heart"></i> in China</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="particles.js"></script>
+</body>
+</html>
